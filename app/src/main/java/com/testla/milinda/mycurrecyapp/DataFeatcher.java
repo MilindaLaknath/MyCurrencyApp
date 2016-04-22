@@ -21,7 +21,7 @@ public class DataFeatcher extends AsyncTask<String, Void, String> {
     @Override
     protected String doInBackground(String... params) {
         try {
-            url = new URL("https://openexchangerates.org/api/latest.json?app_id=1c0a42a3e9664dabab4fc015865bbb08");
+            url = new URL("https://openexchangerates.org/api/latest.json?app_id=use_your_app_id");
             httpCon = (HttpURLConnection) url.openConnection();
             if (httpCon.getResponseCode() != 200) {
                 throw new Exception("Failed to connect");
