@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MyCurrecyApp</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="select_currency_code">Select Your Currency Code</string>
+
+    <string-array name="planets_array">
+        <item>USD - US Dollar</item>
+        <item>EUR - Euro</item>
+        <item>GBP - British Pound</item>
+        <item>AUD - Australian Dollar</item>
+        <item>INR - Indian Rupee</item>
+        <item>CHF - Swiss Franc</item>
+        <item>JPY - Japanese Yen</item>
+        <item>CNY - Chinese Yuan Renminbi</item>
+        <item>LKR - Sri Lankan Rupee</item>
+    </string-array>
+
+</resources>
